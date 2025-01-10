@@ -2,7 +2,7 @@ import random
 import string
 from typing import Protocol
 
-from app.iot.message import Message, MessageType
+from .message import Message, MessageType
 
 
 def generate_id(length: int = 8) -> str:
